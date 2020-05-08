@@ -33,8 +33,9 @@
 			// use hex codes for colors
 
 			var geometry = new THREE.BoxGeometry();
-			var material = new THREE.MeshBasicMaterial( { color: 0xF2AA7E } );
+			var material = new THREE.MeshNormalMaterial( { color: 0x000000 } );
 			var cube = new THREE.Mesh( geometry, material );
+
 			scene.add( cube );
 
 			camera.position.z = 5;
